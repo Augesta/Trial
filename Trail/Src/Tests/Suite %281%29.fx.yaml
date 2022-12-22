@@ -1,0 +1,75 @@
+"'aab501fe-c302-4be9-bdce-1463fe07f8c8' As TestSuite":
+    Description: =""
+    DisplayName: ="Suite (1)"
+
+    "'fc86e2ba-13bd-4463-bf09-2395cf99abf9' As TestCase":
+        Description: =""
+        DisplayName: ="View Employee"
+
+        Step1 As TestStep:
+            Description: ="Select 'btnViewEmp'"
+            Screen: =Home Screen
+            Value: =Select(btnViewEmp)
+
+        Step2 As TestStep:
+            Description: ="Select 'Button4' in row 6 in 'galEmployeeDetails'"
+            Screen: =Employee Details Screen
+            Value: =Select(galEmployeeDetails, 6, Button4)
+
+        Step3 As TestStep:
+            Description: ="Select 'NextArrow3' in row 6 in 'galEmployeeDetails'"
+            Screen: =Employee Details Screen
+            Value: =Select(galEmployeeDetails, 6, NextArrow3)
+
+        Step4 As TestStep:
+            Description: ="Select row 1 in 'galEmployeeDetails_1'"
+            Screen: =Policy Detail Screen
+            Value: =Select(galEmployeeDetails_1, 1)
+
+        Step5 As TestStep:
+            Description: ="Select 'Title4' in row 1 in 'galEmployeeDetails_1'"
+            Screen: =Policy Detail Screen
+            Value: =Select(galEmployeeDetails_1, 1, Title4)
+
+        Step6 As TestStep:
+            Description: ="Select 'NextArrow4' in row 1 in 'galEmployeeDetails_1'"
+            Screen: =Policy Detail Screen
+            Value: =Select(galEmployeeDetails_1, 1, NextArrow4)
+
+        Step7 As TestStep:
+            Description: ="Select 'cmbSumInsuredSelfPolicy' in row 1 in 'galSelfPolicyDetails'"
+            Screen: =Self Policy Screen
+            Value: =Select(galSelfPolicyDetails, 1, cmbSumInsuredSelfPolicy)
+
+        Step8 As TestStep:
+            Description: |-
+                ="Set 'cmbSumInsuredSelfPolicy'.SelectedItems to Table({'Value':""5 Lakhs""})"
+            Screen: =Self Policy Screen
+            Value: |-
+                =SetProperty(cmbSumInsuredSelfPolicy.SelectedItems, Table({Value:"5 Lakhs"}))
+
+        Step9 As TestStep:
+            Description: ="Select 'cmbSumInsuredSelfPolicy' in row 1 in 'galSelfPolicyDetails'"
+            Screen: =Self Policy Screen
+            Value: =Select(galSelfPolicyDetails, 1, cmbSumInsuredSelfPolicy)
+
+        Step10 As TestStep:
+            Description: ="Select 'btnSaveSelfPolicy' in row 1 in 'galSelfPolicyDetails'"
+            Screen: =Self Policy Screen
+            Value: =Select(galSelfPolicyDetails, 1, btnSaveSelfPolicy)
+
+        Step11 As TestStep:
+            Description: ="Select 'Icon3_2'"
+            Screen: =Self Policy Screen
+            Value: =Select(Icon3_2)
+
+        Step12 As TestStep:
+            Description: ="Select 'Icon3_3'"
+            Screen: =Policy Detail Screen
+            Value: =Select(Icon3_3)
+
+        Step13 As TestStep:
+            Description: ="Select 'Icon1_5'"
+            Screen: =Employee Details Screen
+            Value: =Select(Icon1_5)
+

@@ -1,0 +1,113 @@
+{
+  "2e05e163-4878-4103-a468-662e6e4fee72": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Approvals",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1599/1.0.1599.3017/approvals/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_approvals",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "95e6953a-657e-4109-b943-41f7431a5b3e"
+    ],
+    "id": "2e05e163-4878-4103-a468-662e6e4fee72"
+  },
+  "7e636804-d1a9-4372-84d7-464532ddd7ed": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1591/1.0.1591.2961/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Employee Information",
+      "Employee Medical Registration",
+      "Employee Information",
+      "Employee Medical Registration"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "7e636804-d1a9-4372-84d7-464532ddd7ed"
+  },
+  "95e6953a-657e-4109-b943-41f7431a5b3e": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-17.centralindia.logic.azure.com:443/workflows/19770669e96c4e68b85be88d153d04dc/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=fiaUSx89PhdM-WlO9BhqQn42s7ABg3yZy20KPjtgcPc",
+      "workflowEndpoint": "/subscriptions/c17c41e6-fd14-42bf-8563-5171aa5a255e/resourceGroups/b16e3764e5a9474fa067a1fb50fc6dac-b915d75fab014f5485a167fa40d9d034/providers/Microsoft.Logic/workflows/fdc58e10-8803-4814-bb96-a51d21180227",
+      "workflowName": "fdc58e10-8803-4814-bb96-a51d21180227",
+      "workflowPath": "/subscriptions/c17c41e6-fd14-42bf-8563-5171aa5a255e/resourceGroups/b16e3764e5a9474fa067a1fb50fc6dac-b915d75fab014f5485a167fa40d9d034/providers/Microsoft.Logic/workflows/fdc58e10-8803-4814-bb96-a51d21180227"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "2e05e163-4878-4103-a468-662e6e4fee72": {
+          "value": "shared_approvals"
+        },
+        "d40e1f9e-732a-4dc7-8017-0037a42923e1": {
+          "value": "shared_office365"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "fdc58e10-8803-4814-bb96-a51d21180227"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_approvals": {
+          "value": "2e05e163-4878-4103-a468-662e6e4fee72"
+        },
+        "shared_office365": {
+          "value": "d40e1f9e-732a-4dc7-8017-0037a42923e1"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "fdc58e10-8803-4814-bb96-a51d21180227"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "MediclaimEmployeeApproval"
+    ],
+    "dependencies": {
+      "shared_approvals": "2e05e163-4878-4103-a468-662e6e4fee72",
+      "shared_office365": "d40e1f9e-732a-4dc7-8017-0037a42923e1"
+    },
+    "dependents": [],
+    "id": "95e6953a-657e-4109-b943-41f7431a5b3e"
+  },
+  "d40e1f9e-732a-4dc7-8017-0037a42923e1": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1599/1.0.1599.3017/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "95e6953a-657e-4109-b943-41f7431a5b3e"
+    ],
+    "id": "d40e1f9e-732a-4dc7-8017-0037a42923e1"
+  }
+}
