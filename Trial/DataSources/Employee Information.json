@@ -1,0 +1,53 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-08-04T16:47:50.9090000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Attachments",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "File name with extension",
+      "{FullPath}": "Full Path",
+      "{HasAttachments}": "Has attachments",
+      "{Identifier}": "Identifier",
+      "{IsFolder}": "IsFolder",
+      "{Link}": "Link to item",
+      "{ModerationComment}": "Comments associated with the content approval of this list item",
+      "{ModerationStatus}": "Content approval status",
+      "{Name}": "Name",
+      "{Path}": "Folder path",
+      "{Thumbnail}": "Thumbnail",
+      "{TriggerWindowEndToken}": "Trigger Window End Token",
+      "{TriggerWindowStartToken}": "Trigger Window Start Token",
+      "{VersionNumber}": "Version number",
+      "Author": "Created By",
+      "Author#Claims": "Created By Claims",
+      "ComplianceAssetId": "Compliance Asset Id",
+      "Created": "Created",
+      "Dependant_x0020_Sum_x0020_Insure": "Dependant Sum Insured",
+      "Editor": "Modified By",
+      "Editor#Claims": "Modified By Claims",
+      "Email": "Email",
+      "Employee_x0020_Contact": "Employee Contact",
+      "Employee_x0020_DOB": "Employee DOB",
+      "Employee_x0020_Gender": "Gender",
+      "Employee_x0020_ID": "Employee ID",
+      "Employee_x0020_Image": "Employee Image",
+      "Employee_x0020_Name": "Employee Name",
+      "ID": "ID",
+      "Mediclaim_x0020_Eligibility": "Mediclaim Eligibility",
+      "Modified": "Modified",
+      "Self_x0020_Sum_x0020_Insured": "Self Sum Insured",
+      "Title": "Title"
+    },
+    "DatasetName": "https://testtrailnatwest.sharepoint.com/sites/PowerAppsTrials-Natwest",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Employee Information",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
