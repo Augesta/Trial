@@ -84,15 +84,9 @@
         Y: =471
         ZIndex: =6
 
-    Icon7 As icon.Alarm:
-        Icon: =Icon.Alarm
-        X: =714
-        Y: =606
-        ZIndex: =7
-
-    Button1 As button:
-        Text: ="Button"
-        X: =817
+    Icon7 As icon.EmojiHappy:
+        Icon: =Icon.EmojiHappy
+        X: =680
         Y: =630
-        ZIndex: =8
+        ZIndex: =7
 
