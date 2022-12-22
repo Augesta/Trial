@@ -84,3 +84,9 @@
         Y: =471
         ZIndex: =6
 
+    Icon7 As icon.EmojiHappy:
+        Icon: =Icon.EmojiHappy
+        X: =680
+        Y: =630
+        ZIndex: =7
+
