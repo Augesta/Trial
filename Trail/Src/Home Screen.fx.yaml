@@ -84,3 +84,9 @@
         Y: =471
         ZIndex: =6
 
+    Icon7 As icon.Alarm:
+        Icon: =Icon.Alarm
+        X: =714
+        Y: =606
+        ZIndex: =7
+
