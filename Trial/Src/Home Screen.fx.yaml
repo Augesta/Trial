@@ -90,3 +90,10 @@
         Y: =630
         ZIndex: =7
 
+    Button1 As button:
+        Height: =69
+        Text: ="Button"
+        X: =902
+        Y: =640
+        ZIndex: =8
+
