@@ -1,0 +1,82 @@
+"'9d0a5f03-be90-4e56-b4f5-dcd3a61697ee' As TestSuite":
+    Description: =""
+    DisplayName: ="Suite"
+
+    "'9f1fb14d-9a49-42a4-a9ab-2a585dc37898' As TestCase":
+        Description: =""
+        DisplayName: ="Create employee test case"
+
+        Step1 As TestStep:
+            Description: ="Select 'btnCreateEmp'"
+            Screen: =Home Screen
+            Value: =Select(btnCreateEmp)
+
+        Step2 As TestStep:
+            Description: ="Select 'AddMediaButton8'"
+            Screen: =Create Edit Employee Details Screen
+            Value: =Select(AddMediaButton8)
+
+        Step3 As TestStep:
+            Description: ="Select 'DataCardValue18'"
+            Screen: =Create Edit Employee Details Screen
+            Value: =Select(DataCardValue18)
+
+        Step4 As TestStep:
+            Description: ="Set 'DataCardValue18'.Text to ""4566666"""
+            Screen: =Create Edit Employee Details Screen
+            Value: =SetProperty(DataCardValue18.Text, "45666661")
+
+        Step5 As TestStep:
+            Description: ="Set 'DataCardValue19'.Text to ""Check123"""
+            Screen: =Create Edit Employee Details Screen
+            Value: =SetProperty(DataCardValue19.Text, "Check1234")
+
+        Step6 As TestStep:
+            Description: ="Set 'DataCardValue22'.Text to ""776767676"""
+            Screen: =Create Edit Employee Details Screen
+            Value: =SetProperty(DataCardValue22.Text, "776767676")
+
+        Step7 As TestStep:
+            Description: ="Set 'DataCardValue25'.Text to ""akila@natwest.com"""
+            Screen: =Create Edit Employee Details Screen
+            Value: =SetProperty(DataCardValue25.Text, "akila@natwest.com")
+
+        Step8 As TestStep:
+            Description: ="Select 'Icon4_1'"
+            Screen: =Create Edit Employee Details Screen
+            Value: =Select(Icon4_1)
+
+    "'828ca1d9-1fcf-4635-9e88-1056151360ed' As TestCase":
+        Description: =""
+        DisplayName: ="Create employee test case (1)"
+
+        Step1 As TestStep:
+            Description: ="Select 'btnCreateEmp'"
+            Screen: =Home Screen
+            Value: =Select(btnCreateEmp)
+
+        Step2 As TestStep:
+            Description: ="Set 'DataCardValue18'.Text to ""987654"""
+            Screen: =Create Edit Employee Details Screen
+            Value: =SetProperty(DataCardValue18.Text, "685548")
+
+        Step3 As TestStep:
+            Description: ="Set 'DataCardValue19'.Text to ""Naveen A"""
+            Screen: =Create Edit Employee Details Screen
+            Value: =SetProperty(DataCardValue19.Text, "Kumar1")
+
+        Step4 As TestStep:
+            Description: ="Set 'DataCardValue22'.Text to ""4567890"""
+            Screen: =Create Edit Employee Details Screen
+            Value: =SetProperty(DataCardValue22.Text, "45674490")
+
+        Step5 As TestStep:
+            Description: ="Set 'Radio1_1'.Selected to ""Male"""
+            Screen: =Create Edit Employee Details Screen
+            Value: =SetProperty(Radio1_1.Selected, "Male")
+
+        Step6 As TestStep:
+            Description: ="Select 'Icon4_1'"
+            Screen: =Create Edit Employee Details Screen
+            Value: =Select(Icon4_1)
+
